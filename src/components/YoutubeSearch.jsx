@@ -6,7 +6,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetails';
-const API_KEY = 'AIzaSyCIysWg9hND09mrJIMFM5abU5Y4O52B1vc';
+const API_KEY = 'YOUR_API_KEY';
 
 //for exmaple
 
@@ -50,7 +50,6 @@ class YoutubeSearch extends Component {
   }
 }
 
-
 // import _ from 'lodash';
 
 // import React, { useState } from 'react';
@@ -90,8 +89,6 @@ class YoutubeSearch extends Component {
 
 //   //   this.videoSearch('joe rogan');
 //   // }
-
-
 
 //   const videoSearch = (term) => {
 //     YTSearch({ key: API_KEY, term: term }, () => {
@@ -139,4 +136,3 @@ export default YoutubeSearch;
 // //   }, 300);
 // //   return videoSearch;
 // // }
-
